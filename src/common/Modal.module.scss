@@ -1,0 +1,33 @@
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pad {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.window {
+  color: var(--black);
+  background-color: var(--light-grey);
+  border: 2px solid var(--black);
+}
+
+.closeButton {
+  position: absolute !important;
+  right: 0;
+  top: 0;
+  color: var(--dark-grey);
+}
+
+.confirm {
+  font-size: x-large;
+  background-color: var(--green);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

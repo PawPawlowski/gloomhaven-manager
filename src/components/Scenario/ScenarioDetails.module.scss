@@ -1,0 +1,27 @@
+
+.window {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  padding: 10px;
+
+  header {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+  }
+}
+
+.padTop {
+  padding-top: 20px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
